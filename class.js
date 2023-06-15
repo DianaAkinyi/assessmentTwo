@@ -27,7 +27,7 @@ class Student{
             
     //  }
      studentDetails(){
-        console.log("The student called ${name} is ${age} and she scored${grades}")
+        console.log(`The student called ${this.name} is ${this.age} and she scored${this.grades}`)
 
      }
      studentScores(grades){
@@ -84,7 +84,7 @@ class LibraryCatalog{
 
     }
     bookDetails(){
-        console.log("The book am loking for is ${title}and the author is ${author} and it is ${!available}")
+        console.log(`The book am loking for is ${this.title}and the author is ${this.author} and it is ${this.available}`)
     }
     isAvailabe(availability){
 if(availability===!availability){

@@ -13,7 +13,7 @@ class Student:
      def average(self,grades):
         return grades
      def details():
-        return f"I am {name} and am {age} i scored{grades}"
+        return f"I am {self.name} and am {self.age} i scored{self.grades}"
      def studentScore():
         if grade>=60:
           return f"the child has passed"
